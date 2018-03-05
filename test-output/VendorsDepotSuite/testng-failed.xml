@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VendorsDepotSuite]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="dd_tests.LoginTest">
+        <methods>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- dd_tests.LoginTest -->
+      <class name="dd_tests.ProfileTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_tests.ProfileTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="ProfileTest(failed)">
+    <classes>
+      <class name="dd_tests.ProfileTest">
+        <methods>
+          <include name="init"/>
+          <include name="editProfile"/>
+        </methods>
+      </class> <!-- dd_tests.ProfileTest -->
+    </classes>
+  </test> <!-- ProfileTest(failed) -->
+</suite> <!-- Failed suite [VendorsDepotSuite] -->
